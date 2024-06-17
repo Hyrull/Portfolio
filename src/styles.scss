@@ -1,0 +1,14 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/montserrat-v26-latin-regular.woff2') format('woff2');
+}
+
+* {
+  margin: 0px;
+}
+
+$dark-background: #101010;
+$main-blue: #0B4DC5;
