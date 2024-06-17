@@ -1,6 +1,6 @@
 import './HomeContent.scss'
 import { NavLink } from 'react-router-dom'
-import background from './../../assets/img/darkleavesgrading.png' // Courtesy of unsplash - photography by Brennan Burling
+import background from './../../assets/img/darkleaves.webp' // Courtesy of unsplash - photography by Brennan Burling
 // import background from './../../assets/img/darkleaves2.webp' // Courtesy of unsplash - photography by Jeremy Bishop
 
 function HomeContent() {
@@ -11,6 +11,7 @@ function HomeContent() {
         <h3>Welcome home.</h3>
         <h1>I am a job-seeking junior web developer;</h1><br/>
         <h1>Based in France, Nouvelle-Aquitaine.</h1>
+        <h3>Scroll to know more.</h3>
       </div>
       <div className='home-content-links'>
         <NavLink to='/'>My works</NavLink>
