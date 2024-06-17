@@ -3,23 +3,43 @@
 .home-content {
   font-family: 'Montserrat';
   padding-top: 12rem;
-  margin: 0 8rem;
-
-  h3 {
-    color: gray;
-    padding-bottom: 12px;
-  }
-  
-  h1 {
-    color: white;
-  }
+  margin: 0 12%;
 
   img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    opacity: 30%;
+    opacity: 60%;
     z-index: -1;
+  }
+
+  .home-content-text { 
+    h3 {
+      color: gray;
+      padding: 12px 0px;
+      margin-bottom: 12px;
+    }
+    
+    h1 {
+      color: white;
+      font-size: 36px;
+    }
+  }
+
+  .home-content-links {
+    margin-top: 68px;
+
+    a {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-right: 54px;
+      border-color: white;
+      border: 1px solid;
+      border-radius: 36px;
+      padding: 16px 26px;
+    }
   }
 }

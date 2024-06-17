@@ -6,8 +6,8 @@ function Header() {
     <header>
     <h1>Hyrul.</h1>
     <nav>
-      <NavLink to='/'>Who am I?</NavLink>
-      <NavLink to='/'>My projects</NavLink>
+      <NavLink to='/'>About me</NavLink>
+      <NavLink to='/'>My works</NavLink>
       <NavLink to='/'>My previous jobs</NavLink>
     </nav>
     </header>
