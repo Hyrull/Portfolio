@@ -1,0 +1,24 @@
+@import './../../global.scss';
+
+header {
+  display: flex;
+  text-align: center;
+  justify-content:space-between;
+  margin: 18px;
+
+  h1 {
+    font-family: 'Montserrat';
+    font-size: 46px;
+    color: white;
+  }
+
+  nav {
+    a {
+      color: white;
+      font-family: 'Montserrat';
+      font-size: 32px;
+      text-decoration: none;
+      padding: 14px;
+    }
+  }
+}
