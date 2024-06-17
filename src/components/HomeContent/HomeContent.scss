@@ -1,0 +1,25 @@
+@import './../../global.scss';
+
+.home-content {
+  font-family: 'Montserrat';
+  padding-top: 12rem;
+  margin: 0 8rem;
+
+  h3 {
+    color: gray;
+    padding-bottom: 12px;
+  }
+  
+  h1 {
+    color: white;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 30%;
+    z-index: -1;
+  }
+}

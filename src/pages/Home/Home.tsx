@@ -1,9 +1,10 @@
+import HomeContent from '../../components/HomeContent/HomeContent'
 import './Home.scss'
 
 function Home() {
   return (
     <>
-    <h2>home</h2>
+    <HomeContent />
     </>
   )
 }
