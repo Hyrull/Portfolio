@@ -55,6 +55,10 @@
         flex: 2;
         border-radius: 15px;;
       }
+      
+      .p-progressbar-label {
+        display: none;
+      }
 
     }
     li:nth-last-child(1) {
