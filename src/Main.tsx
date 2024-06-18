@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ErrorPage from './pages/ErrorPage/ErrorPage'
 import Home from './pages/Home/Home'
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/' element={<Home />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>,
 )
