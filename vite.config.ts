@@ -20,7 +20,7 @@ export default defineConfig(({ command }) => {
     build: {
       outDir: 'dist',
       rollupOptions: {
-        input: path.resolve(__dirname, '/index.html'),
+        input: path.resolve(__dirname, './index.html'),
       },
     },
   };
