@@ -1,0 +1,82 @@
+[
+  {
+    "id": "OC-P2",
+    "title": "Booki",
+    "subtitle": "HTML & CSS",
+    "details": [
+      "Initiation à l'HTML & CSS",
+      "Savoir reproduire une maquette à l'identique",
+      "Travail de la responsiveness"
+    ]
+  },
+  {
+    "id": "OC-P3",
+    "title": "Sophie Bluel",
+    "subtitle": "JavaScript",
+    "details": [
+      "Récupérer des données frontend",
+      "Gestion du DOM avec JavaScript",
+      "Gestion des évènements utilisateurs"
+    ]
+  },
+  {
+    "id": "OC-P5",
+    "title": "Nina Carducci",
+    "subtitle": "SEO Optimizations",
+    "details": [
+      "Optimiser les performances d'un site",
+      "Optimiser la SEO & accessibilité",
+      "Rédiger un cahier de recette"
+    ]
+  },
+  {
+    "id": "OC-P6",
+    "title": "Kasa",
+    "subtitle": "React.js",
+    "details": [
+      "Initialiser un site avec Vite",
+      "Création d'une Single Page Application",
+      "Utilisation des pages & components de React"
+    ]
+  },
+  {
+    "id": "OC-P7",
+    "title": "Mon Vieux Grimoire",
+    "subtitle": "Node.js & Express.js",
+    "details": [
+      "Green coding & database sécurisée",
+      "Système CRUD avec authentification",
+      "Implémenter un modèle logique optimisé"
+    ]
+  },
+  {
+    "id": "portfolio",
+    "title": "Mon Portfolio",
+    "subtitle": "Vous y êtes.",
+    "details": [
+      "Déploiement d'un site avec GitHub Pages",
+      "Design d'un site sous React & React Router",
+      "Rédaction d'un contenu propre et séduisant"
+    ]
+  },
+  {
+    "id": "ets-dupont",
+    "title": "Établissement Dupont",
+    "subtitle": "Site web en ligne",
+    "details": [
+      "Site web HTML&CSS seulement",
+      "Réalisé sur place avec suivi client",
+      "Code simple sur demande du client"
+    ]
+  },
+  {
+    "id": "sarge",
+    "title": "Sarge",
+    "subtitle": "Discord.js",
+    "details": [
+      "Premier projet de backend",
+      "Gestion d'un environnement sécurisé",
+      "Programmation JavaScript continue"
+    ]
+  }
+]
