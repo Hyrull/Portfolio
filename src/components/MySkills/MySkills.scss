@@ -1,0 +1,64 @@
+@import './../../global.scss';
+
+.my-skills {
+  margin-top: 310px;
+  background-color: $dark-background;
+  font-family: 'Montserrat';
+
+  h2 {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 100px;
+  }
+
+  p {
+    text-align: center;
+    color: grey;
+    padding-bottom: 25px;
+  }
+  
+  .backend-and-frontend {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0% 25%;
+
+    .backend-title, .frontend-title {
+      display: flex;
+      padding: 10px;
+      align-items: center;
+
+      img {
+        width: 45px;
+        margin: 15px;
+        filter: invert(14%) sepia(87%) saturate(4466%) hue-rotate(217deg) brightness(92%) contrast(91%);
+      }
+
+      h3 {
+        font-size: 24px;
+        text-align: center;
+      }
+    }
+
+    li {
+      list-style-type: none;
+      padding: 10px;
+      display: flex;
+
+      span {
+        flex: 1;
+        text-align: left;
+        padding-right: 15px;
+      }
+
+      .p-progressbar {
+        flex: 2;
+        border-radius: 15px;;
+      }
+
+    }
+    li:nth-last-child(1) {
+      padding-bottom: 40px;
+    }
+  }
+}
