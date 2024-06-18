@@ -1,12 +1,17 @@
 @import './../../global.scss';
 
 .my-works {
+  display: flex;
+  flex-direction: column;
   background-color: $dark-background;
   padding-top: 36px;
+  justify-content: center;
+  align-items: center;
 
   h1, h2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     padding: 46px 0px 0px 0px;
   }
 
@@ -18,9 +23,9 @@
 
   .all-cards {
     display: flex;
-    justify-content: space-around;
-    margin: 78px 0px 0px 0px;
+    justify-content: center;
     flex-wrap: wrap;
+    max-width: 1900px;
 
     .p-card {
       border-radius: 35px;
