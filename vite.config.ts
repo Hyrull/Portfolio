@@ -13,7 +13,7 @@ export default defineConfig(({ command }) => {
     base: command === 'serve' ? '/' : '/',
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, 'src'),
+        '@': path.resolve(__dirname, './src'),
         "$Montserrat": path.resolve('./src/assets/fonts/montserrat-v26-latin-regular.woff2')
       },
     },
