@@ -14,6 +14,7 @@ const externalLink = ({ link } : ExternalLink) => {
 function MyWorks() {
   return (
     <div className='my-works'>
+      {/* <img src={background}></img> */}
       <h1>The projects I've worked on:</h1>
       <h2>And thus, the skills I've acquired</h2>
       <div className='all-cards'>

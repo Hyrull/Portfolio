@@ -1,7 +1,6 @@
 import './HomeContent.scss'
 import { NavLink } from 'react-router-dom'
-import background from './../../assets/img/darkleaves.webp' // Courtesy of unsplash - photography by Brennan Burling
-// import background from './../../assets/img/darkleaves2.webp' // Courtesy of unsplash - photography by Jeremy Bishop
+import background from './../../assets/img/darkwaves.webp'
 
 function HomeContent() {
   return (

@@ -3,10 +3,12 @@
 .my-works {
   display: flex;
   flex-direction: column;
-  background-color: $dark-background;
+  // background-color: $dark-background;
   padding-top: 36px;
   justify-content: center;
   align-items: center;
+  background-image: url('./../../assets/img/bluewaves.webp');
+  background-size: cover;
 
   h1, h2 {
     display: flex;
@@ -32,6 +34,7 @@
       margin: 56px 48px;
       width: 425px;
       height: 280px;
+      background-color: $dark-blue;
 
       .p-card-content {
         ul {
@@ -47,6 +50,11 @@
             margin: 24px 10px 6px 0px;
             padding: 16px 24px;
             border-radius: 25px;
+            background-color: $light-blue;
+            
+            span {
+              font-weight: bold;
+            }
           }
         }
       }
