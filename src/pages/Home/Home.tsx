@@ -1,4 +1,5 @@
 import HomeContent from '../../components/HomeContent/HomeContent'
+import MyWorks from '../../components/MyWorks/MyWorks'
 import MySkills from '../../components/MySkills/MySkills'
 import './Home.scss'
 
@@ -7,6 +8,7 @@ function Home() {
     <>
     <HomeContent />
     <MySkills />
+    <MyWorks />
     </>
   )
 }

@@ -37,6 +37,10 @@ function MySkills() {
             <span>C#</span>
             <ProgressBar value={25} />
           </li>
+          <li>
+            <span>Discord.js</span>
+            <ProgressBar value={45} />
+          </li>
         </ul>
         <div className='frontend'>
           <div className='frontend-title'>
@@ -45,11 +49,11 @@ function MySkills() {
           </div>
           <ul>
             <li>
-              <span>HTML5</span>
+              <span>HTML</span>
               <ProgressBar value={95} />
             </li>
             <li>
-              <span>CSS4</span>
+              <span>CSS</span>
               <ProgressBar value={95} />
             </li>
             <li>
@@ -68,10 +72,14 @@ function MySkills() {
               <span>SEO Optimizations</span>
               <ProgressBar value={75} />
             </li>
+            <li>
+              <span>WordPress</span>
+              <ProgressBar value={55} />
+            </li>
           </ul>
         </div>
       </div>
-      <p>Nothing is at 100% because I always leave room for improvement.</p>
+      <p>Nothing is at 100% - because I always leave room for improvement.</p>
     </div>
   )
 }

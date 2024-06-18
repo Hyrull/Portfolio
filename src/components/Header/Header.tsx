@@ -8,7 +8,6 @@ function Header() {
     <nav>
       <NavLink to='/'>About me</NavLink>
       <NavLink to='/'>My works</NavLink>
-      <NavLink to='/'>My previous jobs</NavLink>
     </nav>
     </header>
   )
