@@ -1,6 +1,15 @@
 import './MyWorks.scss'
 import { Button } from 'primereact/button'
 import { Card } from 'primereact/card'
+import { ExternalLink, GithubLinks } from '../../types/types'
+
+const githubRepo = ({ repo } : GithubLinks) => {
+  window.open(`https://github.com/hyrull/${repo}`, '_blank')
+}
+
+const externalLink = ({ link } : ExternalLink) => {
+  window.open(`${link}`, '_blank')
+}
 
 function MyWorks() {
   return (
@@ -17,11 +26,12 @@ function MyWorks() {
             <li>Travail de la responsiveness</li>
           </ul>
           <div className='card-buttons'>
-            <Button label="View on GitHub" />
+            <Button label="View on GitHub"
+            onClick={() => githubRepo({ repo: 'OC-P2' })} />
           </div>
         </Card>
         <Card 
-        title='Nina Carducci'
+        title='Sophie Bluel'
         subTitle='JavaScript'>
           <ul>
             <li>Récupérer des données frontend</li>
@@ -29,11 +39,12 @@ function MyWorks() {
             <li>Gestion des évènements utilisateurs</li>
           </ul>
           <div className='card-buttons'>
-            <Button label="View on GitHub" />
+            <Button label="View on GitHub" 
+            onClick={() => githubRepo({ repo: 'OC-P3' })}/>
           </div>
         </Card>
         <Card 
-        title='Sophie Bluel'
+        title='Nina Carducci'
         subTitle='SEO Optimizations'>
           <ul>
             <li>Optimiser les performances d'un site</li>
@@ -41,7 +52,8 @@ function MyWorks() {
             <li>Rédiger un cahier de recette</li>
           </ul>
           <div className='card-buttons'>
-            <Button label="View on GitHub" />
+            <Button label="View on GitHub" 
+            onClick={() => githubRepo({ repo: 'OC-P5' })}/>
           </div>
         </Card>
         <Card 
@@ -53,7 +65,8 @@ function MyWorks() {
             <li>Utilisation des pages & components de React</li>
           </ul>
           <div className='card-buttons'>
-            <Button label="View on GitHub" />
+            <Button label="View on GitHub" 
+            onClick={() => githubRepo({ repo: 'OC-P6' })}/>
           </div>
         </Card>
         <Card 
@@ -65,7 +78,8 @@ function MyWorks() {
             <li>Implémenter un modèle logique optimisé</li>
           </ul>
           <div className='card-buttons'>
-            <Button label="View on GitHub" />
+            <Button label="View on GitHub" 
+            onClick={() => githubRepo({ repo: 'OC-P7' })}/>
           </div>
         </Card>
         <Card 
@@ -77,7 +91,8 @@ function MyWorks() {
             <li>Rédaction d'un contenu propre et séduisant</li>
           </ul>
           <div className='card-buttons'>
-            <Button label="View on GitHub" />
+            <Button label="View on GitHub" 
+            onClick={() => githubRepo({ repo: 'hyrull.github.io' })}/>
           </div>
         </Card>
         <Card 
@@ -89,7 +104,8 @@ function MyWorks() {
             <li>Code simple sur demande du client</li>
           </ul>
           <div className='card-buttons'>
-            <Button label="View live" />
+            <Button label="View live" 
+            onClick={() => externalLink({ link: 'http://etsdupont.fr/' })}/>
           </div>
         </Card>
         <Card 
@@ -101,7 +117,8 @@ function MyWorks() {
             <li>Programmation JavaScript continue</li>
           </ul>
           <div className='card-buttons'>
-            <Button label="View on GitHub" />
+            <Button label="View on GitHub" 
+            onClick={() => githubRepo({ repo: 'Sarge' })}/>
           </div>
         </Card>
         <Card 
