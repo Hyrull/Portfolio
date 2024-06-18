@@ -1,1 +1,44 @@
-@import './../../global.scss'
+@import './../../global.scss';
+
+.my-works {
+  background-color: $dark-background;
+  padding-top: 36px;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    padding: 46px 0px 0px 0px;
+  }
+
+  .all-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 78px 0px 0px 0px;
+    flex-wrap: wrap;
+
+    .p-card {
+      border-radius: 35px;
+      margin: 56px 48px;
+      width: 425px;
+      height: 280px;
+
+      .p-card-content {
+        ul {
+          list-style-type: none;
+          padding-left: 0px;
+        }
+
+        .card-buttons {
+          display: flex;
+          justify-content: space-around;
+
+          button {
+            margin: 24px 10px 6px 0px;
+            padding: 16px 24px;
+            border-radius: 25px;
+          }
+        }
+      }
+    }
+  }
+}
