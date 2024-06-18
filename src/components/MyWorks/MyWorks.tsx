@@ -79,6 +79,42 @@ function MyWorks() {
             <Button label="View on GitHub" />
           </div>
         </Card>
+        <Card 
+        title='Floriant Dupont'
+        subTitle='Site web en ligne'>
+          <ul>
+            <li>Site web HTML&CSS seulement</li>
+            <li>Réalisé sur place avec suivi client</li>
+            <li>Code simple sur demande du client</li>
+          </ul>
+          <div className='card-buttons'>
+            <Button label="View live" />
+          </div>
+        </Card>
+        <Card 
+        title='Sarge'
+        subTitle='Discord.js'>
+          <ul>
+            <li>Premier projet de backend</li>
+            <li>Gestion d'un environnement sécurisé</li>
+            <li>Programmation JavaScript continue</li>
+          </ul>
+          <div className='card-buttons'>
+            <Button label="View on GitHub" />
+          </div>
+        </Card>
+        <Card 
+        title='Et ensuite ?'
+        subTitle='On continue'>
+          <ul>
+            <li>Développer la maîtrise de React</li>
+            <li>Découvrir Next, Vue et Angular</li>
+            <li>Développer mes connaissances de C#</li>
+          </ul>
+          <div className='card-buttons'>
+            <Button label="Just you wait." />
+          </div>
+        </Card>
       </div>
     </div>
   )
