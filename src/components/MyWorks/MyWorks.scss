@@ -18,7 +18,7 @@
   }
 
   h2 {
-    color: $light-blue;
+    color: #b9cfff;
     font-size: 18px;
     padding: 10px;
   }
@@ -51,8 +51,10 @@
             padding: 16px 24px;
             border-radius: 25px;
             background-color: $light-blue;
+            border: $light-blue;
             
             span {
+              color: white;
               font-weight: bold;
             }
           }
