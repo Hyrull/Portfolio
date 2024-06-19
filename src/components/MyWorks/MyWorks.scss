@@ -95,3 +95,14 @@
     }
   }
 }
+
+@media (max-width: 1025px) { 
+ .card-buttons a {
+  font-size: 18px;
+ }
+
+ .p-card {
+  width: 75% !important;
+  height: 275px !important;
+ }
+}

@@ -25,3 +25,9 @@ header {
     }
   }
 }
+
+@media (max-width: 1025px) { 
+  nav {
+    display: none;
+  }
+}

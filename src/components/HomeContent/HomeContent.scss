@@ -44,3 +44,19 @@
     }
   }
 }
+
+@media (max-width: 1025px) {
+  #home-content {
+
+    h1 {
+      font-size: 34px;
+    }
+
+    overflow: hidden;
+    img {
+      height: 100vh;
+      width: auto;
+    }
+  
+  }
+}
