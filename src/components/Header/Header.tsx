@@ -13,7 +13,7 @@ function Header() {
         {isHomepage ? (
           <nav data-itemtype="https://schema.org/SiteNavigationElement" data-itemscope="">
             <Link data-itemprop="url" to='my-skills' smooth={true} duration={500}>My skills</Link>
-            <Link data-itemprop="url" to='my-works' smooth={true} duration={500}>My works</Link>
+            <Link data-itemprop="url" to='my-works' smooth={true} duration={500}>My work</Link>
             <Link data-itemprop="url" to='about-me' smooth={true} duration={500}>About me</Link>
           </nav>
         ) : (
