@@ -3,7 +3,7 @@ import me from './../../assets/img/hyrul.webp'
 
 function AboutMe() {
   return (
-    <div className='about-me'>
+    <div id='about-me'>
       <h1>But what about me?</h1>
       <div className='me-content'>
         <img src={me} alt='Picture of Hyrul'/>

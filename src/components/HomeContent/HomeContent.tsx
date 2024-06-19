@@ -1,5 +1,5 @@
 import './HomeContent.scss'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import background from './../../assets/img/darkwaves.webp'
 
 function HomeContent() {
@@ -13,8 +13,9 @@ function HomeContent() {
         <h3>Scroll to know more.</h3>
       </div>
       <div className='home-content-links'>
-        <NavLink to='/'>My works</NavLink>
-        <NavLink to='/'>More about me</NavLink>
+        <Link to='my-skills' smooth={true} duration={500}>My skills</Link>
+        <Link to='my-works' smooth={true} duration={500}>My works</Link>
+        <Link to='about-me' smooth={true} duration={500}>About me</Link>
       </div>
     </div>
   )

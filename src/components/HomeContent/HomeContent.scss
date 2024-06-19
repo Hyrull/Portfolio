@@ -2,6 +2,7 @@
 
 .home-content {
   padding-top: 12rem;
+  padding-bottom: 120px;
   margin: 0 12%;
 
   img {
@@ -27,18 +28,19 @@
   }
 
   .home-content-links {
-    margin-top: 68px;
+    margin-top: 48px;
 
     a {
       color: white;
       font-size: 24px;
       font-weight: bold;
       text-decoration: none;
-      margin-right: 54px;
+      margin-right: 34px;
       border-color: white;
       border: 1px solid;
       border-radius: 36px;
       padding: 16px 26px;
+      cursor: pointer;
     }
   }
 }

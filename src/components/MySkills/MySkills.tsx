@@ -5,7 +5,7 @@ import { ProgressBar } from 'primereact/progressbar'
 
 function MySkills() {
   return(
-    <div className='my-skills'>
+    <div id='my-skills'>
       <h2>I can work on both ends.</h2>
       <div className='backend-and-frontend'>
         <div className='backend-title'>
