@@ -7,8 +7,8 @@ function Footer() {
     <footer>
       <h1>Website crafted by Hyrul</h1>
       <div className='networks'>
-        <a href='https://github.com/hyrull'><img src={githubLogo}/></a>
-        <a href='https://linkedin.com/placeholder'><img src={linkedinLogo}/></a>
+        <a href='https://github.com/hyrull'><img src={githubLogo} alt='Logo de GitHub'/></a>
+        <a href='https://linkedin.com/placeholder'><img src={linkedinLogo} alt='Logo de LinkedIn'/></a>
       </div>
     </footer>
   )
