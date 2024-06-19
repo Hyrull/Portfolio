@@ -5,7 +5,7 @@ import linkedinLogo from './../../assets/img/linkedin.svg'
 function Footer() {
   return (
     <footer>
-      <h1>Website crafted by Hyrul</h1>
+      <p>Website crafted by Hyrul</p>
       <div className='networks'>
         <a href='https://github.com/hyrull'><img src={githubLogo} alt='Logo de GitHub'/></a>
         <a href='https://linkedin.com/placeholder'><img src={linkedinLogo} alt='Logo de LinkedIn'/></a>
