@@ -8,15 +8,15 @@ function HomeContent() {
       <img src={background} alt='Image de fond'/>
       <div className='main-container'>
         <div className='home-content-text'>
-          <h3>Welcome.</h3>
-          <h1>I am a job-seeking junior web developer;</h1><br/>
-          <h1>Based in France, Nouvelle-Aquitaine.</h1>
-          <h3>Scroll to know more.</h3>
+          <h3>Bienvenue.</h3>
+          <h1>Je suis un développeur web junior;</h1><br/>
+          <h1>en recherche d'emploi en Nouvelle-Aquitaine.</h1>
+          <h3>Scrollez pour me découvrir.</h3>
         </div>
         <div className='home-content-links'>
-          <Link to='my-skills' smooth={true} duration={500}>My skills</Link>
-          <Link to='my-works' smooth={true} duration={500}>My work</Link>
-          <Link to='about-me' smooth={true} duration={500}>About me</Link>
+          <Link to='my-skills' smooth={true} duration={500}>Compétences</Link>
+          <Link to='my-works' smooth={true} duration={500}>Projets</Link>
+          <Link to='about-me' smooth={true} duration={500}>À propos</Link>
         </div>
       </div>
     </section>

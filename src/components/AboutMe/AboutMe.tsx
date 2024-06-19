@@ -9,16 +9,16 @@ function AboutMe() {
           <img src={me} alt='Picture of Hyrul'/>
           <div className='me-text'>
             <div className='me-title'>
-              <h2>I'm a junior web developer.</h2>
-              <h3>But what about me?</h3>
+              <h2>Je suis un web dev junior.</h2>
+              <h3>Et sinon, qui suis-je ?</h3>
             </div>
-            <p>With a green, clean-coding approach and a keen eye for detail, I am an ever learning junior web developer.
-            As an autodidact, I know how to face difficult challenges, achieve my goals, and bring a project to completion.
-            My past experiences - from factory work to music production - helped me find what I professionally needed.
-            I am now seeking a job that fulfills my thirst for more knowledge and skills in web development.</p>
+            <p>Doté d'une approche optimisée, et passionné, et d'un oeil soucieux du détail, je suis un développeur web junior.
+            Autodidacte, je sais comment relever un défi, accomplir les objectifs et amener un projet à terme.
+            Mes expériences passées - de la logistique en usine à l'ingénierie du son - m'ont permis de connaître mes besoin professionnels.
+            Je suis donc en recherche d'un emploi me permettant d'assouvir mon désir de compétences et de savoir dans le développement web.</p>
             <div className='contact'>
-              <a href='mailto:placeholder@outlook.com'>Send me an email</a>
-              <a href='https://wow.zamimg.com/uploads/screenshots/normal/1149837-sergent.jpg'>Download my resume</a>
+              <a href='mailto:placeholder@outlook.com'>Envoyez-moi un mail</a>
+              <a href='https://wow.zamimg.com/uploads/screenshots/normal/1149837-sergent.jpg'>Téléchargez mon CV</a>
             </div>
           </div>
         </div>

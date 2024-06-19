@@ -9,16 +9,16 @@ function Header() {
   return (
     <header>
       <div className='main-container'>
-        <NavLink to='/'><h1>Hyrul</h1></NavLink>
+        <NavLink to='/'><h2>Xavier Léonard</h2></NavLink>
         {isHomepage ? (
           <nav data-itemtype="https://schema.org/SiteNavigationElement" data-itemscope="">
-            <Link data-itemprop="url" to='my-skills' smooth={true} duration={500}>My skills</Link>
-            <Link data-itemprop="url" to='my-works' smooth={true} duration={500}>My work</Link>
-            <Link data-itemprop="url" to='about-me' smooth={true} duration={500}>About me</Link>
+            <Link data-itemprop="url" to='my-skills' smooth={true} duration={500}>Compétences</Link>
+            <Link data-itemprop="url" to='my-works' smooth={true} duration={500}>Mes projets</Link>
+            <Link data-itemprop="url" to='about-me' smooth={true} duration={500}>À propos</Link>
           </nav>
         ) : (
           <nav data-itemtype="https://schema.org/SiteNavigationElement" data-itemscope="">
-            <NavLink data-itemprop="url" to='/'><span data-itemprop="name">Back to homepage</span></NavLink>
+            <NavLink data-itemprop="url" to='/'><span data-itemprop="name">Retour à l'accueil</span></NavLink>
           </nav>
         )}
       </div>

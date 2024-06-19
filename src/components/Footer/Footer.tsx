@@ -5,10 +5,10 @@ import linkedinLogo from './../../assets/img/linkedin.svg'
 function Footer() {
   return (
     <footer>
-      <p>Website crafted by Hyrul</p>
+      <p>Site créé par Xavier Léonard</p>
       <div className='networks'>
         <a href='https://github.com/hyrull'><img src={githubLogo} alt='Logo de GitHub'/></a>
-        <a href='https://linkedin.com/placeholder'><img src={linkedinLogo} alt='Logo de LinkedIn'/></a>
+        <a href='https://www.linkedin.com/in/xavier-leonard-35a6ab19a/'><img src={linkedinLogo} alt='Logo de LinkedIn'/></a>
       </div>
     </footer>
   )

@@ -8,8 +8,8 @@ function MyWorks() {
   return (
     <section id='my-works'>
       <div className='main-container'>
-        <h1>The projects I've worked on:</h1>
-        <h2>And thus, the skills I've acquired</h2>
+        <h1>Mes projets passés et actuels:</h1>
+        <h2>Et les compétences ainsi acquises</h2>
         <div className='all-cards'>
 
           {/* Mapping the full project data json */}
@@ -22,8 +22,8 @@ function MyWorks() {
                 ))}
               </ul>
               <div className='card-buttons'>
-                <Link to={`/project/${project.id}`}>Learn More</Link>
-                <Link to={`https://github.com/Hyrull/${project.id}`} className='github-link'>View on GitHub</Link>
+                <Link to={`/project/${project.id}`}>Découvrir</Link>
+                <Link to={`https://github.com/Hyrull/${project.id}`} className='github-link'>Voir sur GitHub</Link>
               </div>
             </Card>
           ))}

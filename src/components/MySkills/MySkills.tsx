@@ -7,7 +7,7 @@ function MySkills() {
   return(
     <section id='my-skills'>
       <div className='main-container'>
-        <h2>I can work on both ends.</h2>
+        <h2>Je travaille sur les deux plans.</h2>
         <div className='backend-and-frontend'>
           <div className='backend-title'>
             <img src={server} alt='Server icon'></img>
@@ -80,7 +80,7 @@ function MySkills() {
             </ul>
           </div>
         </div>
-        <p>Nothing is at 100% - because I always leave room for improvement.</p>
+        <p>Rien n'est à 100% - car je laisse toujours une marge de progression.</p>
       </div>
     </section>
   )
