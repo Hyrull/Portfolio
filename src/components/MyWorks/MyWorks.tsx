@@ -38,7 +38,7 @@ function MyWorks() {
               <li>Développer mes connaissances de C#</li>
             </ul>
             <div className='card-buttons'>
-              <Button label="Just you wait." />
+              <Button label="Just you wait." className='just-you-wait'/>
             </div>
           </Card>
         </div>
