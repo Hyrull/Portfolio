@@ -17,6 +17,15 @@
       "Récupérer des données frontend",
       "Gestion du DOM avec JavaScript",
       "Gestion des évènements utilisateurs"
+    ],
+    "image": "OC-P3",
+    "shortDesc": "Court projet d'automatisation JavaScript",
+    "concept": "Ce projet engage à créer une page web dynamique pour un site internet en utilisant uniquement JavaScript et en communiquant une API. Cela exerce l'interaction avec le DOM, sans JQuery ou framework.",
+    "difficult": "Ce projet était mes premiers pas en JavaScript, il a donc fallu rapidement intégrer comment interagir avec l'API, et adopter une bonne logique d'algorithme.",
+    "technos": [
+      "HTML/CSS",
+      "JavaScript",
+      "Postman"
     ]
   },
   {
