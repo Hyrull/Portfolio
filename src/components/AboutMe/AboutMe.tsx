@@ -12,7 +12,7 @@ function AboutMe() {
               <h2>Je suis un web dev junior.</h2>
               <h3>Et sinon, qui suis-je ?</h3>
             </div>
-            <p>Doté d'une approche optimisée, et passionné, et d'un oeil soucieux du détail, je suis un développeur web junior.
+            <p>Doté d'une approche optimisée, passionné, et d'un oeil soucieux du détail, je suis un développeur web junior.
             Autodidacte, je sais comment relever un défi, accomplir les objectifs et amener un projet à terme.
             Mes expériences passées - de la logistique en usine à l'ingénierie du son - m'ont permis de connaître mes besoin professionnels.
             Je suis donc en recherche d'un emploi me permettant de m'enrechir en compétences et de savoir dans le développement web.</p>
