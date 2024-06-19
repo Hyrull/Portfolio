@@ -7,6 +7,14 @@
       "Initiation à l'HTML & CSS",
       "Savoir reproduire une maquette à l'identique",
       "Travail de la responsiveness"
+    ],
+    "image": "OC-P2",
+    "shortDesc": "Cours d'entraînement au pur HTML/CSS",
+    "concept": "Ce projet a eu pour objectif de me perfectionner sur le suivi exact d'une maquette, desktop et mobile. J'ai du y être précis et rigoureux.",
+    "difficult": "Ce projet étant la première fois que je devais travailler autant la responsiveness, j'ai appris à perfectionner mon travail sur ce point.",
+    "technos": [
+      "HTML/CSS",
+      "Figma"
     ]
   },
   {
@@ -21,7 +29,7 @@
     "image": "OC-P3",
     "shortDesc": "Court projet d'automatisation JavaScript",
     "concept": "Ce projet engage à créer une page web dynamique pour un site internet en utilisant uniquement JavaScript et en communiquant une API. Cela exerce l'interaction avec le DOM, sans JQuery ou framework.",
-    "difficult": "Ce projet était mes premiers pas en JavaScript, il a donc fallu rapidement intégrer comment interagir avec l'API, et adopter une bonne logique d'algorithme.",
+    "difficult": "Ce projet étant mes premiers pas en JavaScript, il a donc fallu rapidement intégrer comment interagir avec l'API, et adopter une bonne logique d'algorithme.",
     "technos": [
       "HTML/CSS",
       "JavaScript",
@@ -36,6 +44,16 @@
       "Optimiser les performances d'un site",
       "Optimiser la SEO & accessibilité",
       "Rédiger un cahier de recette"
+    ],
+    "image": "OC-P5",
+    "shortDesc": "Optimisation Lighthouse d'un site web déjà existant.",
+    "concept": "Il m'a fallu ici optimiser le site sur son accessibilité, sa SEO et ses performances. J'ai été amené à retravailler toute la sémantique et le travail des images pour ce résultat.",
+    "difficult": "Peu de difficultés ont été rencontrées ici, mais cela m'a notamment perfectionné sur l'optimisation des images.",
+    "technos": [
+      "HTML/CSS",
+      "JavaScript",
+      "Photoshop",
+      "Lighthouse"
     ]
   },
   {
@@ -46,6 +64,15 @@
       "Initialiser un site avec Vite",
       "Création d'une Single Page Application",
       "Utilisation des pages & components de React"
+    ],
+    "image": "OC-P6",
+    "shortDesc": "Découverte du framework React avec un site exemple.",
+    "concept": "A travers ce site, j'ai pu découvrir le framework, et à l'utiliser correctement à travers tout le projet. Le site devait être propre et dynamique, respectant la maquette, et ce en partant de zéro.",
+    "difficult": "Découvrir React et apprendre à appréhender son architecture de projet ont été les principales difficultés. Cependant, j'ai trouvé le framework intuitif et agréable à utiliser.",
+    "technos": [
+      "React.js",
+      "Vite",
+      "React router"
     ]
   },
   {
@@ -56,6 +83,16 @@
       "Green coding & database sécurisée",
       "Système CRUD avec authentification",
       "Implémenter un modèle logique optimisé"
+    ],
+    "image": "OC-P7",
+    "shortDesc": "Travail de backend - authentification, optimisation d'image et gestion de base de données.",
+    "concept": "J'ai ici du travailler sur du backend, utilisant Express.js, mongoDB, et multer, afin d'assurer le backend d'un site permettant de s'inscrire, noter des livres, créer une api REST (CRUD)...",
+    "difficult": "Il a fallu faire un vrai travail de recherche et de révision de mon propre code tout le long du projet pour assurer une véritable sécurité sur l'ensemble du serveur.",
+    "technos": [
+      "Express.js",
+      "MongoDB",
+      "Multer",
+      "Sharp"
     ]
   },
   {
@@ -66,6 +103,16 @@
       "Déploiement d'un site avec GitHub Pages",
       "Design d'un site sous React & React Router",
       "Rédaction d'un contenu propre et séduisant"
+    ],
+    "image": "Portfolio",
+    "shortDesc": "Réalisation de ce merveilleux site.",
+    "concept": "J'ai du créer mon propre site, du maquettage à la réalisation, et être convaincant dans mon profil.",
+    "difficult": "La grande difficulté a été de vous démontrer, à travers ce site, mes compétences, mon autodidactie et ma vision du travail.",
+    "technos": [
+      "React.js",
+      "React router",
+      "Vite",
+      "GitHub Pages"
     ]
   },
   {
@@ -76,6 +123,14 @@
       "Site web HTML&CSS seulement",
       "Réalisé sur place avec suivi client",
       "Code simple sur demande du client"
+    ],
+    "image": "EtsDupont",
+    "shortDesc": "Réalisation d'un site simple et modifiable pour un commerce.",
+    "concept": "Les commerçants de l'établissement Dupont m'ont contacté pour la réalisation d'un site vitrine pour leur commerce.",
+    "difficult": "J'ai du, à la demande des clients, me limiter à réaliser un site en HTML/CSS pur, afin qu'ils aient les compétences de le modifier facilement eux-même à l'avenir, si besoin.",
+    "technos": [
+      "HTML/CSS",
+      "Ionos"
     ]
   },
   {
@@ -86,6 +141,15 @@
       "Premier projet de backend",
       "Gestion d'un environnement sécurisé",
       "Programmation JavaScript continue"
+    ],
+    "image": "SargeCode",
+    "shortDesc": "Réalisation d'une app pour la plateforme Discord, répondant à des commandes personnalisées et à des messages.",
+    "concept": "Simple projet backend, sur demande des membres d'un serveur de la plateforme Discord, où j'ai réalisé une application répondant à des requêtes et gérant quelques données.",
+    "difficult": "Il a fallu ici apprendre à utiliser Discord.js, un nouveau framework, et à hoster le bot pour le permettre d'être en ligne en continu.",
+    "technos": [
+      "Discord.js",
+      "Putty",
+      "Gestion d'un NAS en FTP"
     ]
   }
 ]
