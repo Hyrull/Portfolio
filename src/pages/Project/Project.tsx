@@ -37,9 +37,11 @@ function ProjectPage() {
         <h3>Difficultés;</h3><hr/>
         <p>{project.difficult}</p>
         <h3>Technologies utilisées;</h3><hr className="hr-skills"/>
-        {project.technos.map((techno, index) => (
-          <span key={index}>{techno}</span>
+        <div className="technos">
+          {project.technos.map((techno, index) => (
+            <span key={index}>{techno}</span>
         ))}
+        </div>
         <h3>Compétences acquises;</h3><hr/>
         <ul>
         {project.details.map((detail, index) => (
