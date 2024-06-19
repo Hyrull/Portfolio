@@ -1,9 +1,3 @@
-
-$dark-background: #101010;
-$main-blue: #0B4DC5;
-$dark-blue: #181820;
-$light-blue: #2f4e8a;
-
 #root {
   width: 100%
 }
@@ -13,7 +7,7 @@ $light-blue: #2f4e8a;
   font-family: 'Montserrat';
 }
 
-#my-works, #about-me, #home-content, #my-skills  {
+#my-works, #about-me, #home-content, #my-skills, header  {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,4 +19,9 @@ $light-blue: #2f4e8a;
     flex-direction: column;
     justify-content: center;
   }
+}
+
+header .main-container {
+  flex-direction: row;
+  justify-content: space-between;
 }
