@@ -30,46 +30,60 @@
 
     .p-card {
       border-radius: 35px;
-      margin: 56px 48px;
-      width: 400px;
-      height: 280px;
+      margin: 56px 38px;
+      width: 420px;
+      height: 260px;
       background-color: $dark-blue;
 
-      .p-card-content {
-        ul {
-          list-style-type: none;
-          padding-left: 0px;
+      .p-card-body {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+        
+        .p-card-subtitle {
+          order: -1;
         }
+        
+        
+        .p-card-content {
+            padding-bottom: 0px;
 
-        .card-buttons {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-
-          a {
-            color: white;
-            text-decoration: none;
-            margin: 24px 10px 6px 0px;
-            justify-content: center;
-            padding: 16px 24px;
-            border-radius: 25px;
-            background-color: $light-blue;
-            border: $light-blue;
-            font-weight: bold;
-
-          }
-
-          button {
-            margin: 24px 10px 6px 0px;
-            padding: 16px 24px;
-            border-radius: 25px;
-            background-color: $light-blue;
-            border: $light-blue;
-            
-            span {
-              color: white;
-              font-weight: bold;
+            ul {
+              list-style-type: none;
+              padding-left: 0px;
             }
+            
+            .card-buttons {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              
+              a {
+                color: white;
+                text-decoration: none;
+                margin: 24px 10px 6px 0px;
+                justify-content: center;
+                padding: 16px 24px;
+                border-radius: 25px;
+                background-color: $light-blue;
+                border: $light-blue;
+                font-weight: bold;
+              
+              }
+            
+              button {
+                margin: 24px 10px 6px 0px;
+                padding: 16px 24px;
+                border-radius: 25px;
+                background-color: transparent;
+                border: none;
+                
+                span {
+                  color: white;
+                  // font-weight: bold;
+                  text-decoration: underline;
+                }
+              }
           }
         }
       }
