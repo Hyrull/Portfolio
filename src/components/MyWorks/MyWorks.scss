@@ -25,14 +25,13 @@
 
   .all-cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 1900px;
 
     .p-card {
       border-radius: 35px;
       margin: 56px 48px;
-      width: 425px;
+      width: 400px;
       height: 280px;
       background-color: $dark-blue;
 
