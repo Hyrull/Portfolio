@@ -7,6 +7,7 @@ import Home from './pages/Home/Home'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css';
+import ProjectPage from './pages/Project/Project'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/project/:projectId' element={ <ProjectPage />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
       <Footer />
