@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import ProjectData from './../../assets/data/projects.json'
 import ErrorPage from "../ErrorPage/ErrorPage"
 import images, { ImageMap } from './../../assets/data/imageImports'
+import { Link } from 'react-router-dom'
 import './Project.scss'
 
 interface Project {
@@ -44,7 +45,8 @@ function ProjectPage() {
         {project.details.map((detail, index) => (
           <li key={index}>{detail}</li>
         ))}
-        </ul>
+        </ul><hr/><br/>
+        <Link to={`https://github.com/Hyrull/${project.id}`}>Voir sur GitHub</Link>
       </div>
     </div>
   )
