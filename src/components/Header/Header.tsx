@@ -11,17 +11,17 @@ function Header() {
       <div className='main-container'>
         <NavLink to='/'><h1>Hyrul</h1></NavLink>
         {isHomepage ? (
-          <nav>
-            <Link to='my-skills' smooth={true} duration={500}>My skills</Link>
-            <Link to='my-works' smooth={true} duration={500}>My works</Link>
-            <Link to='about-me' smooth={true} duration={500}>About me</Link>
-        </nav>
+          <nav data-itemtype="https://schema.org/SiteNavigationElement" data-itemscope="">
+            <Link data-itemprop="url" to='my-skills' smooth={true} duration={500}>My skills</Link>
+            <Link data-itemprop="url" to='my-works' smooth={true} duration={500}>My works</Link>
+            <Link data-itemprop="url" to='about-me' smooth={true} duration={500}>About me</Link>
+          </nav>
         ) : (
-          <nav>
-            <NavLink to='/'>Back to homepage</NavLink>
-        </nav>
+          <nav data-itemtype="https://schema.org/SiteNavigationElement" data-itemscope="">
+            <NavLink data-itemprop="url" to='/'><span data-itemprop="name">Back to homepage</span></NavLink>
+          </nav>
         )}
-    </div>
+      </div>
     </header>
   )
 }
