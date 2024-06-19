@@ -2,12 +2,7 @@ import './MyWorks.scss'
 import { Button } from 'primereact/button'
 import { Card } from 'primereact/card'
 import { Link } from 'react-router-dom'
-import { GithubLinks } from '../../types/types'
 import projectData from './../../assets/data/projects.json'
-
-const githubRepo = ({ repo } : GithubLinks) => {
-  window.open(`https://github.com/hyrull/${repo}`, '_blank')
-}
 
 function MyWorks() {
   return (
@@ -28,7 +23,7 @@ function MyWorks() {
               </ul>
               <div className='card-buttons'>
                 <Link to={`/project/${project.id}`}>Learn More</Link>
-                <Button label='View on GitHub' onClick={() => githubRepo({ repo: project.id })} />
+                <Link to={`https://github.com/Hyrull/${project.id}`} className='github-link'>View on GitHub</Link>
               </div>
             </Card>
           ))}

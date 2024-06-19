@@ -71,18 +71,15 @@
               
               }
             
-              button {
+              .github-link {
                 margin: 24px 10px 6px 0px;
                 padding: 16px 24px;
                 border-radius: 25px;
                 background-color: transparent;
                 border: none;
-                
-                span {
-                  color: white;
-                  // font-weight: bold;
-                  text-decoration: underline;
-                }
+                color: white;
+                text-decoration: underline;
+                font-weight: lighter;
               }
           }
         }
