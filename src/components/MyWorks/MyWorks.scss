@@ -108,22 +108,30 @@
 }
 
 @media (max-width: 767.98px) {
-  .p-card {
-    width: 75% !important;
-    padding-bottom: 10px;
-    height: auto !important;
-
-    .p-card-title {
-      margin-top: 10px;
+  #my-works {
+    .all-cards {
+      display: block;
+      align-items: center;
+      margin: 0px 15px;
     }
-
-    a {
-      font-size: 16px;
-      padding: 10px 20px !important;
+    
+    .p-card {
+      width: 80% !important;
+      padding-bottom: 10px;
+      height: auto !important;
+      
+      .p-card-title {
+        margin-top: 10px;
+      }
+      
+      a {
+        font-size: 16px;
+        padding: 10px 20px !important;
+      }
+      
+      .card-buttons {
+        justify-content: space-between;
+      }
     }
-
-    .card-buttons {
-      justify-content: space-between;
-    }
-   }
+  }
 }
