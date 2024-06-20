@@ -21,6 +21,52 @@
   }
 }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0; /* Initial state */
+  animation: fadeInUp 1s ease-in-out forwards; /* Apply animation */
+}
+
+.fade-in-two {
+  opacity: 0; /* Initial state */
+  animation: fadeInUp 1.2s ease-in-out forwards; /* Apply animation */
+}
+
+.fade-in-three {
+  opacity: 0; /* Initial state */
+  animation: fadeInUp 1.4s ease-in-out forwards; /* Apply animation */
+}
+
+.fade-in-four {
+  opacity: 0; /* Initial state */
+  animation: fadeInUp 1.6s ease-in-out forwards; /* Apply animation */
+}
+
+.fade-in-five {
+  opacity: 0; /* Initial state */
+  animation: fadeInUp 3s ease-in-out forwards; /* Apply animation */
+}
+
+.fade-in-six {
+  opacity: 0; /* Initial state */
+  animation: fadeInUp 3.2s ease-in-out forwards; /* Apply animation */
+}
+
+.fade-in-seven {
+  opacity: 0; /* Initial state */
+  animation: fadeInUp 3.4s ease-in-out forwards; /* Apply animation */
+}
+
 header .main-container {
   flex-direction: row;
   justify-content: space-between;
