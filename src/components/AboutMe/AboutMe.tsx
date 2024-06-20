@@ -14,8 +14,8 @@ function AboutMe() {
             </div>
             <p>Doté d'une approche optimisée, passionné, et d'un oeil soucieux du détail, je suis un développeur web junior.
             Autodidacte, je sais comment relever un défi, accomplir les objectifs et amener un projet à terme.
-            Mes expériences passées - de la logistique en usine à l'ingénierie du son - m'ont permis de connaître mes besoin professionnels.
-            Je suis donc en recherche d'un emploi me permettant de m'enrechir en compétences et de savoir dans le développement web.</p>
+            Mes expériences passées - de la logistique en usine à l'ingénierie du son - m'ont permis de connaître mes besoins professionnels.
+            Je suis donc à la recherche d'un emploi me permettant de consolider mes compétences et expériences dans le développement web.</p>
             <div className='contact'>
               <a href='mailto:placeholder@outlook.com' className='glow-blue'>Envoyez-moi un mail</a>
               <a href='https://drive.google.com/uc?export=download&id=1VFoCj7uf7Rgq_GSnPe5JVdCAI3jeV8Tc' className='glow-blue'>Téléchargez mon CV</a>
