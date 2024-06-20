@@ -14,9 +14,9 @@ function HomeContent() {
           <h2 className='fade-in-four'>Scrollez pour me découvrir.</h2>
         </div>
         <div className='home-content-links'>
-          <Link to='my-skills' smooth={true} duration={500} className='fade-in-five'>Compétences</Link>
-          <Link to='my-works' smooth={true} duration={500} className='fade-in-six'>Projets</Link>
-          <Link to='about-me' smooth={true} duration={500} className='fade-in-seven'>À propos</Link>
+          <Link to='my-skills' smooth={true} duration={500} className='fade-in-five glow'>Compétences</Link>
+          <Link to='my-works' smooth={true} duration={500} className='fade-in-six glow'>Projets</Link>
+          <Link to='about-me' smooth={true} duration={500} className='fade-in-seven glow'>À propos</Link>
         </div>
       </div>
     </section>

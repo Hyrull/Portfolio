@@ -22,7 +22,7 @@ function MyWorks() {
                 ))}
               </ul>
               <div className='card-buttons'>
-                <Link to={`/project/${project.id}`}>Découvrir</Link>
+                <Link to={`/project/${project.id}`} className='glow-blue'>Découvrir</Link>
                 <Link to={`https://github.com/Hyrull/${project.id}`} className='github-link'>Voir sur GitHub</Link>
               </div>
             </Card>

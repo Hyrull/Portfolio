@@ -1,3 +1,6 @@
+@import './variables.scss';
+
+
 #root {
   width: 100%
 }
@@ -65,6 +68,22 @@
 .fade-in-seven {
   opacity: 0; /* Initial state */
   animation: fadeInUp 3.4s ease-in-out forwards; /* Apply animation */
+}
+
+.glow {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow:hover {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.61), 0 0 10px rgba(255, 255, 255, 0.6), 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.glow-blue {
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.glow-blue:hover {
+  box-shadow: 0 0 5px rgba($lighter-blue, 0.8), 0 0 10px rgba($lighter-blue, 0.6), 0 0 15px rgba($lighter-blue, 0.4);
 }
 
 header .main-container {
