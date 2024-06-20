@@ -18,7 +18,7 @@ function AboutMe() {
             Je suis donc en recherche d'un emploi me permettant de m'enrechir en compétences et de savoir dans le développement web.</p>
             <div className='contact'>
               <a href='mailto:placeholder@outlook.com'>Envoyez-moi un mail</a>
-              <a href='https://wow.zamimg.com/uploads/screenshots/normal/1149837-sergent.jpg'>Téléchargez mon CV</a>
+              <a href='https://drive.google.com/uc?export=download&id=1VFoCj7uf7Rgq_GSnPe5JVdCAI3jeV8Tc'>Téléchargez mon CV</a>
             </div>
           </div>
         </div>
